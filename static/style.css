@@ -47,7 +47,7 @@ header {
 
 header h1 {
   font-family: "Syne", sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
   letter-spacing: -0.03em;
   line-height: 1;
@@ -101,6 +101,22 @@ header h1 .accent {
   border-bottom: 1px solid var(--border);
   padding-bottom: 0.6rem;
 }
+
+.lang-select {
+  background: var(--bg);
+  border: 1.5px solid var(--border);
+  color: var(--ink);
+  font-family: 'Inconsolata', monospace;
+  font-size: 0.85rem;
+  padding: 0.5rem 0.85rem;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  transition: border-color 0.2s;
+}
+.lang-select:focus { border-color: var(--accent); }
+
 
 .drop-zone {
   border: 2px dashed var(--border);
